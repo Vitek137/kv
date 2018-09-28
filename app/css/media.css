@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Стили для больших экранов*/
+/* @media only screen and (min-device-width: 1440px) /* */
+/* @media only screen and (min-device-width: 1580px) */
+/* @media only screen and (min-device-width: 1890px) */
+/* @media only screen and (min-device-width: 1920px) */
+/* @media only screen and (min-device-width: 2300px) */
+/* Стили для больших экранов*/
+/* Стили для маленьких экранов*/
+/* @media only screen and (max-device-width: 1200px) */
+/* @media only screen and (max-device-width: 1120px) */
+/* @media only screen and (max-device-width: 1055px) */
+/* @media only screen and (max-device-width: 972px) */
+/* @media only screen and (max-device-width: 890px) */
+/* @media only screen and (max-device-width: 850px) */
+/* @media only screen and (max-device-width: 780px) */
+/* @media only screen and (max-device-width: 690px) */
+/* @media only screen and (max-device-width: 660px) */
+/* @media only screen and (max-device-width: 590px) */
+/* @media only screen and (max-device-width: 570px) */
+/* Стили для маленьких экранов*/
+/* Стили для очень маленьких экранов */
+@media only screen and (max-device-width: 480px) {
+  body {
+    color: red; } }
+
+/* @media only screen and (max-device-width: 380px) */
+/* @media only screen and (max-device-width: 365px) */
+/* @media only screen and (max-device-width: 320px) */
+/* Стили для очень маленьких экранов */
+/* Обязательное отображение скрываемых элементов */
+/*  @media only screen and (min-device-width: 973px) */
+/* .menu-header  */
+/*  display: block !important  */
+/* @media only screen and (min-device-width: 481px) */
+/* .menu-footer  */
+/* display: block !important  */
+/* Обязательное отображение скрываемых элементов */

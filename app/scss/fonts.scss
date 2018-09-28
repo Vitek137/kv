@@ -1,0 +1,52 @@
+/* Подключение шрифтов. */
+$mono: true;
+$svg: false;
+$truetupe: true;
+@each $s in Academia Plain, Academia Roman, Adventurer Black SF/* Список подключаемых шрифтов. */
+{
+    @font-face
+    {
+        font-family:'#{$s}';
+        
+        @if $svg == true and $truetupe == false and $mono == false {
+        src: url('../fonts/#{$s}.eot?iefix') format('eot'),
+        url('../fonts/#{$s}.woff') format('woff'),
+        url('../fonts/#{$s}.svg#webfont') format('svg');       
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+        @if $svg == false and $truetupe == false and $mono == false {
+        src: url('../fonts/#{$s}.eot?iefix') format('eot'),
+        url('../fonts/#{$s}.woff') format('woff');     
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+        @if $svg == false and $truetupe == true and $mono == false {
+        src: url('../fonts/#{$s}.eot?iefix') format('eot'),
+        url('../fonts/#{$s}.woff') format('woff'),
+        url('../fonts/#{$s}.ttf') format('truetype');     
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+        @if $svg == true and $truetupe == true and $mono == false {
+        src: url('../fonts/#{$s}.eot?iefix') format('eot'),
+        url('../fonts/#{$s}.woff') format('woff'),
+        url('../fonts/#{$s}.ttf') format('truetype'),
+        url('../fonts/#{$s}.svg#webfont') format('svg');       
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+        @if $truetupe == true and $mono == true {
+        src: url('../fonts/#{$s}.ttf') format('truetype');     
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+    }
+    
+}
+/* Подключение шрифтов. */

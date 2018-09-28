@@ -1,0 +1,22 @@
+.wrapper {
+  color: #ff0;
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: #f0f;
+  text-align: center;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  padding-top: 10px; 
+  -o-text-overflow: clip; 
+     text-overflow: clip;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+  }
+
+.box {
+  color: #0f0; }

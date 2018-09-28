@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Подключение шрифтов. */
+@font-face {
+  font-family: "Academia Plain";
+  src: url("../fonts/Academia Plain.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Academia Roman";
+  src: url("../fonts/Academia Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Adventurer Black SF";
+  src: url("../fonts/Adventurer Black SF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Подключение шрифтов. */
