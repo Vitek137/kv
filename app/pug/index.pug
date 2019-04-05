@@ -1,0 +1,24 @@
+doctype
+html(lang="ru")
+  head
+  
+    meta(charset="utf-8")
+    title= "Главная страница"
+    
+    include templates/head/meta/meta.html 
+    
+  body
+  
+    div.wrapp#main
+      header            
+        div.nevsi dfg
+        
+         include templates/menu/secondary-menu.html
+         
+    include templates/contents/section.html 
+    
+    footer
+    
+    include templates/js-connection/jquery-connection.html
+    include templates/js-connection/popicsel-prefect-connection.html
+    include templates/js-connection/js-connection.html 

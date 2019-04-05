@@ -1,0 +1,74 @@
+
+@charset "UTF-8";
+/* Общие стили */
+/* Общие стили */
+/* Header */
+.wrapp {
+  min-height: 100px;
+  background-color: #f00; }
+
+/* Header */
+/* Основной контент. */
+/* Основной контент. */
+/* Футер. */
+.clear {
+  clear: both; }
+
+/* Футер. */
+/* Вспомогательные стили для внешних скриптов. */
+/* Вспомогательные стили для внешних скриптов. */
+
+
+
+
+
+.vstavka2 {
+  min-height: 100px;
+  background-color: #0ff; }
+  .vstavka2 ul li {
+    list-style: none;
+    height: 20px;
+    background-color: #00f; }
+
+
+@media only screen and (min-device-width: 1200px) {
+
+
+.content2 {
+  margin-top: 40px; }
+
+.content {
+  margin-top: 20px; }
+
+
+.list {
+  list-style: inherit; }
+
+
+}
+@media only screen and (max-device-width: 768px) {
+
+
+.height {
+  height: 240px; }
+
+.height {
+  height: 240px; }
+
+
+.width {
+  width: 120px; }
+
+
+}
+@media only screen and (max-device-width: 480px) {
+
+
+
+
+
+.color2 {
+  color: red; }
+
+
+}
