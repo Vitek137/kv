@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+.content {
+  margin-top: 20px; }
+
+
+.height {
+  height: 240px; }
+
+
+
+
+
+
+.list {
+  list-style: inherit; }
+
+.color2 {
+  color: inherit; }
+
+.width {
+  width: 100px; }
+
+.vstavka2 {
+  min-height: 100px;
+  background-color: #0ff; }
+  .vstavka2 ul li {
+    list-style: none;
+    height: 20px;
+    background-color: #00f; }
+
+
+
+

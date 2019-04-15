@@ -12,6 +12,9 @@
   list-style: inherit; }
 
 
+.list {
+  list-style: inherit; }
+
 }
 @media only screen and (max-device-width: 768px) {
 
@@ -27,6 +30,9 @@
   width: 120px; }
 
 
+.width {
+  width: 120px; }
+
 }
 @media only screen and (max-device-width: 480px) {
 
@@ -37,5 +43,8 @@
 .color2 {
   color: red; }
 
+
+.color2 {
+  color: red; }
 
 }

@@ -10,3 +10,11 @@
     height: 20px;
     background-color: #00f; }
 
+
+.vstavka2 {
+  min-height: 100px;
+  background-color: #0ff; }
+  .vstavka2 ul li {
+    list-style: none;
+    height: 20px;
+    background-color: #00f; }

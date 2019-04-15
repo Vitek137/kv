@@ -1,8 +1,8 @@
 /* Подключение шрифтов. */
-$mono: true;
-$svg: false;
+$mono: false;
+$svg: true;
 $truetupe: true;
-@each $s in Academia Plain, Academia Roman, Adventurer Black SF/* Список подключаемых шрифтов. */
+@each $s in Academia Plain, Adventurer Black SF, Roboto Bold/* Список подключаемых шрифтов. */
 {
     @font-face
     {
@@ -32,10 +32,11 @@ $truetupe: true;
         }
     
         @if $svg == true and $truetupe == true and $mono == false {
-        src: url('../fonts/#{$s}.eot?iefix') format('eot'),
+        src:  url('../fonts/#{$s}.eot');   
+        src: local('☺'), 
         url('../fonts/#{$s}.woff') format('woff'),
         url('../fonts/#{$s}.ttf') format('truetype'),
-        url('../fonts/#{$s}.svg#webfont') format('svg');       
+        url('../fonts/#{$s}.svg') format('svg');       
         font-weight: normal;
         font-style: normal;
         }

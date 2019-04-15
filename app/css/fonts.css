@@ -2,19 +2,22 @@
 /* Подключение шрифтов. */
 @font-face {
   font-family: "Academia Plain";
-  src: url("../fonts/Academia Plain.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Academia Roman";
-  src: url("../fonts/Academia Roman.ttf") format("truetype");
+  src: url("../fonts/Academia Plain.eot");
+  src: local("☺"), url("../fonts/Academia Plain.woff") format("woff"), url("../fonts/Academia Plain.ttf") format("truetype"), url("../fonts/Academia Plain.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: "Adventurer Black SF";
-  src: url("../fonts/Adventurer Black SF.ttf") format("truetype");
+  src: url("../fonts/Adventurer Black SF.eot");
+  src: local("☺"), url("../fonts/Adventurer Black SF.woff") format("woff"), url("../fonts/Adventurer Black SF.ttf") format("truetype"), url("../fonts/Adventurer Black SF.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto Bold.eot");
+  src: local("☺"), url("../fonts/Roboto Bold.woff") format("woff"), url("../fonts/Roboto Bold.ttf") format("truetype"), url("../fonts/Roboto Bold.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 

@@ -18,6 +18,158 @@
 /* Вспомогательные стили для внешних скриптов. */
 /* Вспомогательные стили для внешних скриптов. */
 
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-img-uslug-1 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -1068px;
+  width: 71px;
+  height: 80px;
+}
+.icon-img-uslug-10 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -214px;
+  width: 84px;
+  height: 66px;
+}
+.icon-img-uslug-2 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -330px;
+  width: 67px;
+  height: 68px;
+}
+.icon-img-uslug-3 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -568px;
+  width: 84px;
+  height: 72px;
+}
+.icon-img-uslug-4 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -105px;
+  width: 99px;
+  height: 59px;
+}
+.icon-img-uslug-5 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -814px;
+  width: 70px;
+  height: 76px;
+}
+.icon-img-uslug-6 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -690px;
+  width: 77px;
+  height: 74px;
+}
+.icon-img-uslug-7 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 73px;
+  height: 55px;
+}
+.icon-img-uslug-8 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -448px;
+  width: 53px;
+  height: 70px;
+}
+.icon-img-uslug-9 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -940px;
+  width: 69px;
+  height: 78px;
+}
+
+.svg-1 {
+	background: url("../img/sprite.png") 0 0 no-repeat;
+}
+
+.svg-1-dims {
+	width: 100px;
+	height: 100px;
+}
+
+.svg-2 {
+	background: url("../img/sprite.png") 0 99.90755448411826% no-repeat;
+}
+
+.svg-2-dims {
+	width: 76.402px;
+	height: 75.209px;
+}
+
+.svg-3 {
+	background: url("../img/sprite.png") 56.86341407938132% 0 no-repeat;
+}
+
+.svg-3-dims {
+	width: 96.14px;
+	height: 100px;
+}
+
+.svg-4 {
+	background: url("../img/sprite.png") 99.81679389312977% 0 no-repeat;
+}
+
+.svg-4-dims {
+	width: 75.5px;
+	height: 100px;
+}
+
+.svg-fix {
+	background: url("../img/sprite.png") 0 37.623687873885395% no-repeat;
+}
+
+.svg-fix-dims {
+	width: 100px;
+	height: 5.21px;
+}
+
+.svg-logo {
+	background: url("../img/sprite.png") 0 46.77455208287022% no-repeat;
+}
+
+.svg-logo-dims {
+	width: 100px;
+	height: 46.07px;
+}
+
+.svg-logo_triangle {
+	background: url("../img/sprite.png") 58.13953488372093% 46.77455208287022% no-repeat;
+}
+
+.svg-logo_triangle-dims {
+	width: 100px;
+	height: 46.07px;
+}
+
+.svg-tc_triangle {
+	background: url("../img/sprite.png") 0 66.74019499713239% no-repeat;
+}
+
+.svg-tc_triangle-dims {
+	width: 100px;
+	height: 44.33px;
+}
+
+
 
 
 
@@ -33,9 +185,9 @@
 
 @media only screen and (min-device-width: 1200px) {
 
-
 .content2 {
   margin-top: 40px; }
+
 
 .content {
   margin-top: 20px; }
@@ -48,9 +200,9 @@
 }
 @media only screen and (max-device-width: 768px) {
 
-
 .height {
   height: 240px; }
+
 
 .height {
   height: 240px; }

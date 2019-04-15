@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* Подключение шрифтов. */
+@font-face {
+  font-family: "Academia Plain";
+  src: url("../fonts/Academia Plain.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Academia Roman";
+  src: url("../fonts/Academia Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Adventurer Black SF";
+  src: url("../fonts/Adventurer Black SF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Подключение шрифтов. */
+
+.vstavka2 {
+  min-height: 100px;
+  background-color: #0ff; }
+  .vstavka2 ul li {
+    list-style: none;
+    height: 20px;
+    background-color: #00f; }
+
+@media only screen and (min-device-width: 1200px) {
+.list {
+  list-style: inherit; }
+
+}
+@media only screen and (max-device-width: 768px) {
+.width {
+  width: 120px; }
+
+}
+@media only screen and (max-device-width: 480px) {
+.color2 {
+  color: red; }
+
+}
