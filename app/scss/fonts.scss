@@ -2,7 +2,7 @@
 $mono: false;
 $svg: true;
 $truetupe: true;
-@each $s in Academia Plain, Adventurer Black SF, Roboto Bold/* Список подключаемых шрифтов. */
+@each $s in MyriadPro LightSemiExt, Roboto Bold/* Список подключаемых шрифтов. */
 {
     @font-face
     {

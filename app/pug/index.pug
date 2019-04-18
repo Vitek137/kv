@@ -3,17 +3,15 @@ html(lang="ru")
   head
   
     meta(charset="utf-8")
-    title= "Главная страница"
+    title= "Шаблон CV"
     
     include templates/head/meta/meta.html 
     
   body
-  
-    include templates/header/block-header.pug
-         
-    include templates/contents/section.html 
+    div.wrapper     
+      include templates/left-section/block-left-section.pug 
+      include templates/right-section/block-right-section.pug 
     
-    footer
     
     include templates/js-connection/jquery-connection.html
     
