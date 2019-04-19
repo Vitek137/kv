@@ -3,8 +3,10 @@
 /* Общие стили */
 /* Header */
 .wrapper {
-  min-height: 100px;
-  background-color: #f00; }
+  min-width: 320px;
+  min-height: 1500px;
+  background-color: #f00;
+  margin: 145px 4.3%; }
 
 /* Header */
 /* Основной контент. */
