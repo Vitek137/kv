@@ -17,16 +17,62 @@
 <body>
     <div class="wrapper">
         <div class="left-section">
-            <div class="left-section__logo"></div>
-            <div class="left-section__profile"></div>
-            <div class="left-section__contact"></div>
+            <!-- Модуль логотипа. -->
+            <div class="logos">
+
+                <!-- Круг логотипа инлайном. 
+   
+       <div class="logos__circle logos__circle_margin-top">
+        <span></span>
+       </div>
+       -->
+                <!-- end Круг логотипа инлайном. -->
+
+                <!-- Копирайт логотипа. -->
+                <div class="logos__logotype logos__logotype_margin">
+                    <p><span class="logos__logotype_bolder">NAME HERE</span>
+                        <span class="logos__logotype_bold">SURNAME</span>
+                        <span class="logos__logotype_normal">GRAPHIC DESIGNER</span>
+                    </p>
+                </div>
+                <!-- end Копирайт логотипа. -->
+            </div>
+            <!-- end Модуль логотипа. -->
+            <div class="profile profile_margin">
+                <h2 class="inscription-header">Profile</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu <strong>pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</strong></p>
+            </div>
+            <div class="contact">
+
+                <h2 class="inscription-header">Contact</h2>
+            </div>
             <div class="left-section__skills"></div>
         </div>
+        <div class="right-section"></div>
     </div>
     <script src="libs/jquery-1.8.3.min.js"></script>
 
+    <script type="text/javascript" src="libs/jquery.pixlayout.0.9.7.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $.pixlayout({
+                clip: true,
+                src: "img-tmpl/maket.jpg",
+                show: false,
+                center: false,
+                top: 0,
+                left: 0,
+                pervious: true
+            });
+        });
+    </script>
 
-    <!-- build:js js/main.min.js -->
+    <!-- Добавьте этот код в главный шаблон:
+    
+    include templates/js-connection/popicsel-prefect-connection.html 
+    
+    --!>
+   <!-- build:js js/main.min.js -->
     <script src="js/main.js"></script>
     <script src="js/libs.js"></script>
     <!-- endbuild -->

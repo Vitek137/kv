@@ -2,11 +2,11 @@
 .content2 {
   margin-top: 40px; }
 
-.list {
-  list-style: inherit; }
-
 .content {
   margin-top: 20px; }
+
+.list {
+  list-style: inherit; }
 
 .list {
   list-style: inherit; }
@@ -16,23 +16,23 @@
 .height {
   height: 240px; }
 
-.width {
-  width: 120px; }
-
 .height {
   height: 240px; }
 
 .width {
   width: 120px; }
 
+.width {
+  width: 120px; }
+
 }
 @media only screen and (max-device-width: 480px) {
-.color2 {
-  color: red; }
-
 .wrapper {
   background-color: #f00;
   margin: 5px 5px; }
+
+.color2 {
+  color: red; }
 
 .color2 {
   color: red; }

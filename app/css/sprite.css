@@ -30,6 +30,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-experience {
   background-image: url(../img/sprite.png);
+  background-position: 0px -965px;
+  width: 153px;
+  height: 148px;
+}
+.icon-profile {
+  background-image: url(../img/sprite.png);
   background-position: 0px -386px;
   width: 148px;
   height: 143px;

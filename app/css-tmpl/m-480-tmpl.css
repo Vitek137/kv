@@ -1,10 +1,10 @@
 @media only screen and (max-device-width: 480px) {
-.color2 {
-  color: red; }
-
 .wrapper {
   background-color: #f00;
   margin: 5px 5px; }
+
+.color2 {
+  color: red; }
 
 .color2 {
   color: red; }
