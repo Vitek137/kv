@@ -1,15 +1,9 @@
 @charset "UTF-8";
-.left-section {
+.left-container {
   width: 38.2%;
   min-height: 1500px;
   float: left;
-  background-color: #0f0; }
-
-.right-section {
-  width: 56.5%;
-  min-height: 1500px;
-  float: right;
-  background-color: #0f0; }
+  background-color: inherit; }
 
 .vstavka2 {
   min-height: 100px;
@@ -18,6 +12,13 @@
     list-style: none;
     height: 20px;
     background-color: #00f; }
+
+.right-container {
+  width: 56.5%;
+  min-height: 1500px;
+  float: right;
+  padding-top: 85px;
+  background-color: #b7e0e0; }
 
 .vstavka2 {
   min-height: 100px;
@@ -118,6 +119,52 @@
 
 /* Копирайт логотипа. */
 /* Модуль логотипа. */
+.skills {
+  width: 90%;
+  height: auto;
+  float: right;
+  overflow: hidden;
+  font-family: "MyriadPro Regular", sans-serif;
+  background-color: #fff;
+  font-size: 51px; }
+
+.skills .inscription-header::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 143px;
+  height: 143px;
+  background-image: url(../img/sprite.png);
+  background-position: 0px -579px; }
+
+.progress {
+  text-align: center; }
+
+.skills .progress {
+  margin-top: -20px;
+  margin-bottom: 110px; }
+
+.progress__bar {
+  padding-left: 11.5%; }
+
+.progress__block {
+  float: left; }
+
+.progress__label {
+  margin-bottom: 15px; }
+
+.progress__block {
+  margin: 0 1.3%;
+  background-color: #e6e6e6;
+  width: 0;
+  padding: 2.4%;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%; }
+
+.progress__block_active {
+  background-color: #3d6cb0; }
+
 .profile {
   width: 90%;
   height: auto;
@@ -170,49 +217,78 @@
   vertical-align: middle;
   margin: 0 2%; }
 
-.skills {
-  width: 90%;
+.education {
+  width: 92.7%;
   height: auto;
-  float: right;
+  float: left;
   overflow: hidden;
   font-family: "MyriadPro Regular", sans-serif;
   background-color: #fff;
   font-size: 51px; }
+  .education h2 {
+    margin-left: 1.5%; }
 
-.skills .inscription-header::before {
+.education .inscription-header::before {
   content: "";
   display: inline-block;
   position: relative;
-  width: 143px;
+  width: 148px;
   height: 143px;
   background-image: url(../img/sprite.png);
-  background-position: 0px -579px;
-  content: ""; }
+  background-position: 0px -193px;
+  left: -1%; }
 
-.progress {
-  text-align: center; }
+.education .inscription-header {
+  margin-bottom: 0; }
 
-.skills .progress {
-  margin-top: -20px;
-  margin-bottom: 110px; }
+.inscription-post {
+  text-transform: uppercase;
+  font-family: "MyriadPro bold", sans-serif;
+  font-size: 1.9vw;
+  font-weight: bold;
+  line-height: auto;
+  letter-spacing: -2px;
+  color: #3d6cb0;
+  position: relative;
+  white-space: nowrap; }
 
-.progress__bar {
-  padding-left: 11.5%; }
+.education .featured-post {
+  margin-left: 3.1%; }
 
-.progress__block {
-  float: left; }
-
-.progress__label {
-  margin-bottom: 15px; }
-
-.progress__block {
-  margin: 0 1.3%;
-  background-color: #e6e6e6;
+.inscription-post::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: #000;
   width: 0;
-  padding: 2.4%;
+  padding: 1.6%;
   -webkit-border-radius: 100%;
      -moz-border-radius: 100%;
-          border-radius: 100%; }
+          border-radius: 100%;
+  left: -1%;
+  vertical-align: middle;
+  margin: 0 1.7%; }
 
-.progress__block_active {
-  background-color: #3d6cb0; }
+.inscription-post__date {
+  font-family: "MyriadPro regular", sans-serif;
+  color: #020202;
+  margin-left: 2%;
+  text-transform: none;
+  font-weight: normal; }
+
+.inscription-post__university {
+  display: block;
+  color: #000;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-left: 6.5%; }
+
+.featured-post__post {
+  font-family: "MyriadPro regular", sans-serif;
+  color: #000;
+  font-size: 1.1vw;
+  line-height: 35px;
+  width: 85%;
+  height: 90px;
+  margin-top: -35px;
+  margin-left: 7%; }
