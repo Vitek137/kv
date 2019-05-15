@@ -18,37 +18,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-contact {
   background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
+  background-position: -401px 0px;
   width: 143px;
   height: 143px;
 }
 .icon-education {
   background-image: url(../img/sprite.png);
-  background-position: 0px -193px;
+  background-position: -203px 0px;
   width: 148px;
   height: 143px;
 }
 .icon-experience {
   background-image: url(../img/sprite.png);
-  background-position: 0px -965px;
+  background-position: 0px 0px;
   width: 153px;
   height: 148px;
 }
 .icon-profile {
   background-image: url(../img/sprite.png);
-  background-position: 0px -386px;
+  background-position: 0px -198px;
   width: 148px;
   height: 143px;
 }
 .icon-skills {
   background-image: url(../img/sprite.png);
-  background-position: 0px -579px;
+  background-position: -401px -193px;
   width: 143px;
   height: 143px;
 }
 .icon-software {
   background-image: url(../img/sprite.png);
-  background-position: 0px -772px;
+  background-position: -198px -198px;
   width: 148px;
   height: 143px;
 }

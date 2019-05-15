@@ -1,54 +1,54 @@
 .svg-contact {
-	background: url("../img/sprite.png") 0 0 no-repeat;
+	background: url("../img/sprite-svg.svg") 0 0 no-repeat;
 }
 
 .svg-contact-dims {
-	width: 100px;
-	height: 100px;
+	width: 140px;
+	height: 140px;
 }
 
 .svg-education {
-	background: url("../img/sprite.png") 50% 0 no-repeat;
+	background: url("../img/sprite-svg.svg") 50% 0 no-repeat;
 }
 
 .svg-education-dims {
-	width: 100px;
-	height: 96.62px;
+	width: 140px;
+	height: 136.62px;
 }
 
 .svg-experience {
-	background: url("../img/sprite.png") 0 99.73072703700011% no-repeat;
+	background: url("../img/sprite-svg.svg") 0 99.8075140799886% no-repeat;
 }
 
 .svg-experience-dims {
-	width: 100px;
-	height: 96.73px;
+	width: 140px;
+	height: 136.73px;
 }
 
 .svg-profile {
-	background: url("../img/sprite.png") 50% 99.62143853357243% no-repeat;
+	background: url("../img/sprite-svg.svg") 50% 99.72930616896994% no-repeat;
 }
 
 .svg-profile-dims {
-	width: 100px;
-	height: 96.62px;
+	width: 140px;
+	height: 136.62px;
 }
 
 .svg-skills {
-	background: url("../img/sprite.png") 100% 0 no-repeat;
+	background: url("../img/sprite-svg.svg") 100% 0 no-repeat;
 }
 
 .svg-skills-dims {
-	width: 100px;
-	height: 100px;
+	width: 140px;
+	height: 140px;
 }
 
 .svg-software {
-	background: url("../img/sprite.png") 100% 99.62143853357243% no-repeat;
+	background: url("../img/sprite-svg.svg") 100% 99.72930616896994% no-repeat;
 }
 
 .svg-software-dims {
-	width: 100px;
-	height: 96.62px;
+	width: 140px;
+	height: 136.62px;
 }
 

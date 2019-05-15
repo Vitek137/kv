@@ -53,10 +53,16 @@
   content: "";
   display: inline-block;
   position: relative;
-  width: 143px;
-  height: 143px;
-  background-image: url(../img/sprite.png);
-  background-position: 0px 0px; }
+  width: 6.5vw;
+  height: 6.5vw;
+  background: url("../img/sprite-svg.svg") 0 0 no-repeat;
+  -webkit-background-size: 350% 350%;
+     -moz-background-size: 350%;
+       -o-background-size: 350%;
+          background-size: 350%;
+  vertical-align: middle;
+  top: -18px;
+  left: -3%; }
 
 /* Модуль логотипа. */
 /* Круг логотипа. */
@@ -95,30 +101,84 @@
 
 .logos__logotype_bolder {
   font-family: "MyriadPro LightSemiExt", sans-serif;
-  font-size: 104px;
-  line-height: 50px;
+  font-size: 4vw;
+  letter-spacing: 0.15vw;
+  font-stretch: condensed;
+  line-height: 2vw;
   font-weight: 300;
   color: #000; }
 
 .logos__logotype_bold {
   font-family: "MyriadPro Bold", sans-serif;
-  font-size: 120px;
+  font-size: 5vw;
+  font-stretch: expanded;
   font-weight: bold;
-  letter-spacing: -5px;
-  line-height: 160px;
+  letter-spacing: -0.3vw;
+  line-height: 7.3vw;
   font-variant: small-caps;
   color: #000; }
 
 .logos__logotype_normal {
   font-family: "MyriadPro Bold", sans-serif;
-  font-size: 50px;
+  font-size: 2vw;
   font-weight: bold;
-  line-height: 50px;
-  letter-spacing: -5px;
+  line-height: 0.5vw;
+  letter-spacing: -0.2vw;
   color: #000; }
 
 /* Копирайт логотипа. */
 /* Модуль логотипа. */
+.skills {
+  width: 90%;
+  height: auto;
+  float: right;
+  overflow: hidden;
+  font-family: "MyriadPro Regular", sans-serif;
+  background-color: #fff;
+  font-size: 1.9vw; }
+
+.skills .inscription-header::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 6.6vw;
+  height: 6.6vw;
+  background: url("../img/sprite-svg.svg") 100% 0 no-repeat;
+  -webkit-background-size: 348% 348%;
+     -moz-background-size: 348%;
+       -o-background-size: 348%;
+          background-size: 348%;
+  vertical-align: middle;
+  top: -18px; }
+
+.progress {
+  text-align: center; }
+
+.skills .progress {
+  margin-top: -20px;
+  margin-bottom: 110px; }
+
+.progress__bar {
+  padding-left: 11.5%; }
+
+.progress__block {
+  float: left; }
+
+.progress__label {
+  margin-bottom: 15px; }
+
+.progress__block {
+  margin: 0 1.3%;
+  background-color: #e6e6e6;
+  width: 0;
+  padding: 2.4%;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%; }
+
+.progress__block_active {
+  background-color: #3d6cb0; }
+
 .profile {
   width: 90%;
   height: auto;
@@ -151,14 +211,13 @@
   content: "";
   display: inline-block;
   position: relative;
-  width: 6vw;
-  height: 6vw;
-  background-image: url(../img/sprite.png);
-  background-position: 0px -386px;
-  -webkit-background-size: auto auto;
-     -moz-background-size: auto;
-       -o-background-size: auto;
-          background-size: auto;
+  width: 6.5vw;
+  height: 6.5vw;
+  background: url("../img/sprite-svg.svg") 50% 99.72931% no-repeat;
+  -webkit-background-size: 350% 350%;
+     -moz-background-size: 350%;
+       -o-background-size: 350%;
+          background-size: 350%;
   left: 0;
   vertical-align: middle;
   margin: 0 1.7%; }
@@ -175,52 +234,6 @@
   vertical-align: middle;
   margin: 0 2%; }
 
-.skills {
-  width: 90%;
-  height: auto;
-  float: right;
-  overflow: hidden;
-  font-family: "MyriadPro Regular", sans-serif;
-  background-color: #fff;
-  font-size: 51px; }
-
-.skills .inscription-header::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 143px;
-  height: 143px;
-  background-image: url(../img/sprite.png);
-  background-position: 0px -579px; }
-
-.progress {
-  text-align: center; }
-
-.skills .progress {
-  margin-top: -20px;
-  margin-bottom: 110px; }
-
-.progress__bar {
-  padding-left: 11.5%; }
-
-.progress__block {
-  float: left; }
-
-.progress__label {
-  margin-bottom: 15px; }
-
-.progress__block {
-  margin: 0 1.3%;
-  background-color: #e6e6e6;
-  width: 0;
-  padding: 2.4%;
-  -webkit-border-radius: 100%;
-     -moz-border-radius: 100%;
-          border-radius: 100%; }
-
-.progress__block_active {
-  background-color: #3d6cb0; }
-
 .education {
   width: 92.7%;
   height: auto;
@@ -235,11 +248,17 @@
   content: "";
   display: inline-block;
   position: relative;
-  width: 148px;
-  height: 143px;
-  background-image: url(../img/sprite.png);
-  background-position: 0px -193px;
-  left: -1%; }
+  width: 6.5vw;
+  height: 6.5vw;
+  background: url("../img/sprite-svg.svg") 50% 0 no-repeat;
+  -webkit-background-size: 350% 350%;
+     -moz-background-size: 350%;
+       -o-background-size: 350%;
+          background-size: 350%;
+  vertical-align: middle;
+  top: -18px;
+  left: -2%;
+  margin: 0 1.2%; }
 
 .education .inscription-header {
   margin-bottom: 0; }
@@ -310,11 +329,17 @@
   content: "";
   display: inline-block;
   position: relative;
-  width: 153px;
-  height: 148px;
-  background-image: url(../img/sprite.png);
-  background-position: 0px -965px;
-  left: -1%; }
+  width: 6.5vw;
+  height: 6.5vw;
+  background: url("../img/sprite-svg.svg") 0 99.80751% no-repeat;
+  -webkit-background-size: 350% 350%;
+     -moz-background-size: 350%;
+       -o-background-size: 350%;
+          background-size: 350%;
+  vertical-align: middle;
+  top: 10px;
+  left: -2%;
+  margin: 0 1.2%; }
 
 .experience .featured-post {
   margin-left: 2.7%; }
@@ -343,11 +368,17 @@
   content: "";
   display: inline-block;
   position: relative;
-  width: 148px;
-  height: 143px;
-  background-image: url(../img/sprite.png);
-  background-position: 0px -772px;
-  left: -1%; }
+  width: 6.55vw;
+  height: 6.55vw;
+  background: url("../img/sprite-svg.svg") 100% 99.72931% no-repeat;
+  -webkit-background-size: 347% 347%;
+     -moz-background-size: 347%;
+       -o-background-size: 347%;
+          background-size: 347%;
+  vertical-align: middle;
+  top: 10px;
+  left: -2%;
+  margin: 0 1.2%; }
 
 .software__margin {
   margin-top: 30px; }
