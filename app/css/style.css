@@ -5,6 +5,7 @@
 .wrapper {
   min-width: 320px;
   min-height: 1500px;
+  height: auto;
   background-color: #fff;
   margin: 5px; }
 

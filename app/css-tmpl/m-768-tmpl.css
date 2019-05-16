@@ -1,14 +1,88 @@
 @media only screen and (max-device-width: 768px) {
-.height {
-  height: 240px; }
-
-.height {
-  height: 240px; }
-
 .width {
   width: 120px; }
 
 .width {
   width: 120px; }
+
+.education {
+  width: 92.7%;
+  height: auto;
+  float: left;
+  overflow: hidden;
+  font-family: "MyriadPro Regular", sans-serif;
+  background-color: #fff; }
+  .education h2 {
+    margin-left: 1.5%; }
+
+.education .inscription-header::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 6.5vw;
+  height: 6.5vw;
+  background: url("../img/sprite-svg.svg") 50% 0 no-repeat;
+  -webkit-background-size: 350% 350%;
+     -moz-background-size: 350%;
+       -o-background-size: 350%;
+          background-size: 350%;
+  vertical-align: middle;
+  top: -18px;
+  left: -2%;
+  margin: 0 1.2%; }
+
+.education .inscription-header {
+  margin-bottom: 0; }
+
+.inscription-post {
+  text-transform: uppercase;
+  font-family: "MyriadPro bold", sans-serif;
+  font-size: 1.9vw;
+  font-weight: bold;
+  line-height: 0;
+  letter-spacing: -2px;
+  color: #3d6cb0;
+  position: relative;
+  white-space: nowrap; }
+
+.education .featured-post {
+  margin-left: 3.1%; }
+
+.inscription-post::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: #000;
+  width: 0;
+  padding: 1.6%;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+  left: -1%;
+  vertical-align: middle;
+  margin: 0 1.7%; }
+
+.inscription-post__date {
+  font-family: "MyriadPro regular", sans-serif;
+  color: #020202;
+  margin-left: 2%;
+  text-transform: none;
+  font-weight: normal; }
+
+.inscription-post__university {
+  display: block;
+  color: #000;
+  font-weight: normal;
+  margin-top: 55px;
+  margin-left: 6.5%; }
+
+.featured-post__post {
+  font-family: "MyriadPro regular", sans-serif;
+  color: #000;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  width: 85%;
+  height: 90px;
+  margin-left: 7%; }
 
 }

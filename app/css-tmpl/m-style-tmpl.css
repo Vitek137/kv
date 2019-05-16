@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.left-container {
+  width: 38.2%;
+  min-height: 1500px;
+  height: auto;
+  float: left;
+  background-color: inherit; }
+
 .vstavka2 {
   min-height: 100px;
   background-color: #0ff; }
@@ -6,12 +13,6 @@
     list-style: none;
     height: 20px;
     background-color: #00f; }
-
-.left-container {
-  width: 38.2%;
-  min-height: 1500px;
-  float: left;
-  background-color: inherit; }
 
 .right-container {
   width: 56.5%;
@@ -35,7 +36,7 @@
   overflow: hidden;
   font-family: "MyriadPro Regular", sans-serif;
   background-color: #fff;
-  font-size: 41px; }
+  font-size: 1.5vw; }
 
 .contact .contact__infa {
   text-align: left;
@@ -128,6 +129,61 @@
 
 /* Копирайт логотипа. */
 /* Модуль логотипа. */
+.profile {
+  width: 90%;
+  height: auto;
+  float: right;
+  overflow: hidden;
+  font-family: "MyriadPro Regular", sans-serif;
+  background-color: #fff; }
+  .profile p {
+    font-size: 1.2vw;
+    margin: -25px 2% 0 2%;
+    letter-spacing: 1px; }
+    .profile p strong {
+      font-family: "MyriadPro Bold", sans-serif; }
+
+.profile_margin {
+  margin-top: 75px; }
+
+.inscription-header {
+  text-transform: uppercase;
+  font-family: "MyriadPro bold", sans-serif;
+  font-size: 3vw;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -2px;
+  color: #3d6cb0;
+  position: relative;
+  white-space: nowrap; }
+
+.inscription-header::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 6.5vw;
+  height: 6.5vw;
+  background: url("../img/sprite-svg.svg") 50% 99.72931% no-repeat;
+  -webkit-background-size: 350% 350%;
+     -moz-background-size: 350%;
+       -o-background-size: 350%;
+          background-size: 350%;
+  left: 0;
+  vertical-align: middle;
+  margin: 0 1.7%; }
+
+.inscription-header::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  height: 10px;
+  background-color: #3d6cb0;
+  top: -5px;
+  right: 0;
+  vertical-align: middle;
+  margin: 0 2%; }
+
 .skills {
   width: 90%;
   height: auto;
@@ -179,61 +235,6 @@
 .progress__block_active {
   background-color: #3d6cb0; }
 
-.profile {
-  width: 90%;
-  height: auto;
-  float: right;
-  overflow: hidden;
-  font-family: "MyriadPro Regular", sans-serif;
-  background-color: #fff; }
-  .profile p {
-    font-size: 30px;
-    margin: -45px 2% 0 2%;
-    letter-spacing: 1px; }
-    .profile p strong {
-      font-family: "MyriadPro Bold", sans-serif; }
-
-.profile_margin {
-  margin-top: 75px; }
-
-.inscription-header {
-  text-transform: uppercase;
-  font-family: "MyriadPro bold", sans-serif;
-  font-size: 3vw;
-  font-weight: bold;
-  line-height: normal;
-  letter-spacing: -2px;
-  color: #3d6cb0;
-  position: relative;
-  white-space: nowrap; }
-
-.inscription-header::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 6.5vw;
-  height: 6.5vw;
-  background: url("../img/sprite-svg.svg") 50% 99.72931% no-repeat;
-  -webkit-background-size: 350% 350%;
-     -moz-background-size: 350%;
-       -o-background-size: 350%;
-          background-size: 350%;
-  left: 0;
-  vertical-align: middle;
-  margin: 0 1.7%; }
-
-.inscription-header::after {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 70%;
-  height: 10px;
-  background-color: #3d6cb0;
-  top: -5px;
-  right: 0;
-  vertical-align: middle;
-  margin: 0 2%; }
-
 .education {
   width: 92.7%;
   height: auto;
@@ -274,6 +275,9 @@
   position: relative;
   white-space: nowrap; }
 
+.featured-post {
+  height: auto; }
+
 .education .featured-post {
   margin-left: 3.1%; }
 
@@ -311,7 +315,8 @@
   font-size: 1.1vw;
   line-height: 1.5vw;
   width: 85%;
-  height: 90px;
+  min-height: 90px;
+  height: auto;
   margin-left: 7%; }
 
 .experience {
