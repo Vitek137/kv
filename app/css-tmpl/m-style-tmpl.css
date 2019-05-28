@@ -398,14 +398,14 @@
   margin-top: -20px;
   margin-bottom: 110px; }
 
-.progress-soft__bar progress {
-  width: 100%; }
+.software .progress-soft:nth-child(even) {
+  float: right; }
 
-.progress-soft__margin-left {
+.software .progress-soft:nth-child(odd) {
   margin-left: 2.5%; }
 
-.progress-soft__float-right {
-  float: right; }
+.progress-soft__bar progress {
+  width: 100%; }
 
 .progress-soft__label {
   margin-bottom: 15px; }

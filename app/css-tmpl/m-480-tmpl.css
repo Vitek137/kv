@@ -61,6 +61,72 @@
   top: -18px;
   left: -3%; }
 
+/* Модуль логотипа. */
+/* Круг логотипа. */
+.logos {
+  width: 85%;
+  min-height: 500px;
+  background-color: #fff;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative; }
+
+.logos::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  padding: 25.5%;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+  background-color: #3d6cb0;
+  -webkit-box-shadow: 0 0 0 25px #fff, 0 0 0 29px #3d6cb0;
+     -moz-box-shadow: 0 0 0 25px #fff, 0 0 0 29px #3d6cb0;
+          box-shadow: 0 0 0 25px #fff, 0 0 0 29px #3d6cb0;
+  margin-top: 200px; }
+
+/* Круг логотипа инлайном. */
+/* Круг логотипа инлайном. */
+/* Круг логотипа. */
+/* Копирайт логотипа. */
+.logos__logotype span {
+  display: block;
+  text-transform: uppercase; }
+
+.logos__logotype_margin {
+  margin-top: 110px; }
+
+.logos__logotype_bolder {
+  font-family: "MyriadPro LightSemiExt", sans-serif;
+  font-size: 4vw;
+  letter-spacing: 0.15vw;
+  font-stretch: condensed;
+  line-height: 2vw;
+  font-weight: 300;
+  color: #000; }
+
+.logos__logotype_bold {
+  font-family: "MyriadPro Bold", sans-serif;
+  font-size: 5vw;
+  font-stretch: expanded;
+  font-weight: bold;
+  letter-spacing: -0.3vw;
+  line-height: 7.3vw;
+  font-variant: small-caps;
+  color: #000; }
+
+.logos__logotype_normal {
+  font-family: "MyriadPro Bold", sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+  line-height: 0.5vw;
+  letter-spacing: -0.2vw;
+  color: #000; }
+
+/* Копирайт логотипа. */
+/* Модуль логотипа. */
 .profile {
   width: 90%;
   height: auto;
@@ -172,72 +238,5 @@
 
 .progress__block_active {
   background-color: #3d6cb0; }
-
-/* Модуль логотипа. */
-/* Круг логотипа. */
-.logos {
-  width: 85%;
-  min-height: 500px;
-  background-color: #fff;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  position: relative; }
-
-.logos::before {
-  content: "";
-  display: inline-block;
-  width: 0;
-  padding: 25.5%;
-  -webkit-border-radius: 100%;
-     -moz-border-radius: 100%;
-          border-radius: 100%;
-  background-color: #3d6cb0;
-  -webkit-box-shadow: 0 0 0 25px #fff, 0 0 0 29px #3d6cb0;
-     -moz-box-shadow: 0 0 0 25px #fff, 0 0 0 29px #3d6cb0;
-          box-shadow: 0 0 0 25px #fff, 0 0 0 29px #3d6cb0;
-  margin-top: 200px; }
-
-/* Круг логотипа инлайном. */
-/* Круг логотипа инлайном. */
-/* Круг логотипа. */
-/* Копирайт логотипа. */
-.logos__logotype span {
-  display: block;
-  text-transform: uppercase; }
-
-.logos__logotype_margin {
-  margin-top: 110px; }
-
-.logos__logotype_bolder {
-  font-family: "MyriadPro LightSemiExt", sans-serif;
-  font-size: 4vw;
-  letter-spacing: 0.15vw;
-  font-stretch: condensed;
-  line-height: 2vw;
-  font-weight: 300;
-  color: #000; }
-
-.logos__logotype_bold {
-  font-family: "MyriadPro Bold", sans-serif;
-  font-size: 5vw;
-  font-stretch: expanded;
-  font-weight: bold;
-  letter-spacing: -0.3vw;
-  line-height: 7.3vw;
-  font-variant: small-caps;
-  color: #000; }
-
-.logos__logotype_normal {
-  font-family: "MyriadPro Bold", sans-serif;
-  font-size: 2vw;
-  font-weight: bold;
-  line-height: 0.5vw;
-  letter-spacing: -0.2vw;
-  color: #000; }
-
-/* Копирайт логотипа. */
-/* Модуль логотипа. */
 
 }
